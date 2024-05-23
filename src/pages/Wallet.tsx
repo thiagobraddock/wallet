@@ -1,13 +1,5 @@
-import Header from '../components/Header';
-import WalletForm from '../components/WalletForm';
-
 function Wallet() {
-  return (
-    <>
-      <Header />
-      <WalletForm />
-    </>
-  );
+  return <h2>Wallet</h2>;
 }
 
 export default Wallet;

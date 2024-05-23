@@ -1,16 +1,7 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Login from './pages/Login';
-import Wallet from './pages/Wallet';
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={ <Login /> } />
-      <Route path="/carteira" element={ <Wallet /> } />
-      <Route path="*" element={ <h1>Not Found</h1> } />
-    </Routes>
-  );
+  return <h1>TrybeWallet</h1>;
 }
 
 export default App;
